@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* Layout for screens with width between 980px and 851px  */
+
+header { 
+	height: 275px; 
+	background: url(../images/bannerlarge.jpg) no-repeat left 0px; 
+	}
+
+header a.logo { 
+	width: 380px;
+	height: 180px;
+	top: 20px; right: 0px;
+	background-image: url(../images/silogo_xlarge.png);
+ }
+ 
+ nav { top: 275px; }
+ 
+ body { background-image: none; }
+

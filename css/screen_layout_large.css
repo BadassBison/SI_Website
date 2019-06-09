@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Layout for screens with width between 850px and 751px  */
+
+header { 
+	height: 260px; 
+	background: url(../images/bannerlarge.jpg) no-repeat left 0px; 
+	}
+
+header a.logo { 
+	width: 300px;
+	height: 120px;
+	top: 20px; right: 20px;
+	background-image: url(../images/silogo_large.png);
+ }
+
+nav { top: 260px; }
+
+.promo_container { padding: 0px 20px 15px 20px; }
+
+.promo_container .promo { background-position: 0px 0px;}
+
+.promo_container .promo .content { padding: 70px 30px 0px 0px }
+
+body { background-image: none; }
+

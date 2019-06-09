@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/* Layout (global rules for all sizes) */
+
+body { margin: 0; padding: 0; }
+
+header a.logo {
+	display: block;
+	position: absolute;
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	}
+	
+
+/* Layout Full Size Screens (default for older browsers) */
+
+header {
+	height: 300px;
+	background: url(../images/bannerfull.jpg) no-repeat left 0px;
+	}
+	
+header a.logo {
+	width: 420px;
+	height: 150px;
+	top: 20px;
+	right: 0px;
+	background-image: url(../images/silogo_full.png);
+	}
+
+article { padding: 60px 20px 10px 20px; }
+
+.promo_container { padding: 0px 0px 15px 20px }
+.promo_container .promo {
+	width: 33%;
+	float: left;
+	background-position: 0px 3px;
+	}
+.promo_container .promo .content { padding: 0px 30px 0px 85px; }
+
+
+nav { 
+	top: 300px; 
+	width: 100%;
+	display: block;
+	position: absolute;
+	background-color: #a6430a
+}
+nav a { margin: 12px 0px 10px 20px; } 
+
+.container { 
+	position: relative; 
+	margin: 50px 0px 0px 0px;
+	}
+
+.container ul { 
+	float: left;
+	width: 150px;
+	background-color: #ffffff;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0;
+}
+
+.container li {
+	margin: 0;
+	padding: 10px 9px 10px 22px;
+	background-color: #fff;
+	}
+	
+.container a.sb { 
+	text-transform: uppercase;
+	font-size: 1.4em;
+	display: block;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0 0 0 0;
+	padding: 0px 20px 0px 0px;
+	background: url(../images/arrows.jpg) no-repeat right 3px;
+ }
+.container a.sb:hover { background-position: right -47px; }
+
+.title { 
+display: block;
+float: left;
+padding: 0px;
+margin: 10px 0px 0px 15px; 
+ }
+
+.title h1 { margin: 0; }
+
+.title_small { display: none; }
+ 
+.title_small h1 { margin: 0; }
+ 
+.article_content {
+	 top: 10px;
+	 margin: 0px 40px 0px 165px;
+	 Padding: 40px 0px 10px 0px;
+	 }
+	
+.article_content p { color: #444; margin: 0; }
+
+.scroll { height: 319px; overflow: scroll; }
+
+.courses { display: none; }
+
+@media screen and (max-width: 1290px){
+	footer { padding-left: 20px; }
+	}

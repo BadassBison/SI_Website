@@ -1,0 +1,1 @@
+We are very happy that you have chosen to use Supplemental Instruction this semester. This 	is one of the many resources that ICC offers, to aid you in academic success. Within this website you will find all the resources needed to get everything out of SI.
